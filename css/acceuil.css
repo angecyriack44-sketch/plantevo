@@ -187,3 +187,53 @@ footer{
     font-size: 20px;
 }
 
+
+@media(max-widht: 700px){
+    section{
+        padding: 15px;
+    }
+
+    header{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header nav{
+        order: 3;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    header nav a{
+        margin: 0px 10px;
+    }
+
+    .fond img{
+        height: 150px;
+    }
+
+    .contenu{
+        flex-direction: column;
+    }
+
+    .contenu > img,
+    .contenu > p,
+    .contenu > div{
+        flex: none;
+    }
+
+    .contenu > img{
+        height: 180px;
+    }
+
+    .contenu > p{
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .schema-etroit{
+        max-width: 200px;
+    }
+}
+
